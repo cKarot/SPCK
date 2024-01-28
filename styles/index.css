@@ -2,10 +2,38 @@ body {
   background: #ffffff;
   font-size: 22px;
   line-height: 32px;
-  color: #000000;
+  color: black;
   word-wrap: break-word !important;
   font-family: "Open Sans", sans-serif;
 }
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: white;
+  -webkit-box-shadow:0 1px 4px rgba(0,0,0,.15);
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.nav:hover{
+  color:#ff5b6a;
+  
+}
+.navbar {
+  padding: 35px;
+}
+
+
 
 h1 {
   font-size: 60px;
@@ -38,62 +66,7 @@ h1 {
   margin: 0 auto;
 }
 
-p {
-  text-align: center;
-}
 
-nav {
-  margin: 50px 0;
-  background-color: #fffcfc;
-}
-
-nav ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  position: relative;
-}
-
-nav ul li {
-  display: inline-block;
-  background-color: #fffcfc;
-}
-
-nav a {
-  display: block;
-  padding: 0 10px;
-  color: #000000;
-  font-size: 20px;
-  line-height: 60px;
-  text-decoration: none;
-}
-
-nav a:hover {
-  background-color: #eea15d;
-}
-
-nav ul ul {
-  display: none;
-  position: absolute;
-  top: 60px;
-}
-
-nav ul li:hover > ul {
-  display: inherit;
-}
-
-nav ul ul li {
-  width: 170px;
-  float: none;
-  display: list-item;
-  position: relative;
-}
-
-nav ul ul ul li {
-  position: relative;
-  top: -60px;
-  left: 170px;
-}
 
 li > a:after {
   content: " +";
@@ -110,6 +83,7 @@ li > a:only-child:after {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  margin-left: 127px;
 }
 
 .card {
@@ -122,7 +96,7 @@ li > a:only-child:after {
 	text-align: center;
   }
   .slideshow-container {
-	max-width: 500px;
+	max-width: 300px;
 	position: relative;
 	margin: auto;
   }
@@ -130,7 +104,7 @@ li > a:only-child:after {
 	  display: none;
   }
   .text {
-	color: #f2f2f2;
+	color: black;
 	font-size: 15px;
 	padding: 8px 12px;
 	position: absolute;
